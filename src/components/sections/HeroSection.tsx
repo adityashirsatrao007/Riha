@@ -13,7 +13,10 @@ export function HeroSection() {
               Find Your Dream Wedding Dress
             </h1>
             <p className="text-lg sm:text-xl text-foreground mb-8">
-              wedding
+              Explore our exquisite collection of Indian wedding dresses,
+              meticulously crafted for your special day. From traditional
+              elegance to modern chic, find the perfect ensemble that reflects
+              your unique style.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground group shadow-lg transform hover:scale-105 transition-transform">
