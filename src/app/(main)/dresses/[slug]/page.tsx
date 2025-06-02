@@ -1,11 +1,13 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { dresses, type Dress } from '@/lib/data';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
-import { ArrowLeft, Mail } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import { notFound } from 'next/navigation';
+import { InquiryButtonClient } from '@/components/InquiryButtonClient'; // Added import
 
 interface DressDetailPageProps {
   params: {
@@ -89,11 +91,7 @@ export default function DressDetailPage({ params }: DressDetailPageProps) {
             ))}
           </ul>
           
-          <Button asChild size="lg" className="w-full sm:w-auto bg-accent hover:bg-accent/90 text-accent-foreground group">
-            <Link href={`/contact?dress=${encodeURIComponent(dress.name)}`}>
-              <Mail className="mr-2 h-5 w-5" /> Inquire About This Dress
-            </Link>
-          </Button>
+          <InquiryButtonClient dressName={dress.name} />
         </div>
       </div>
     </div>
