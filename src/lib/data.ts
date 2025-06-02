@@ -1,19 +1,20 @@
+
 export interface Dress {
   id: string;
   name: string;
   description: string;
   longDescription: string;
-  price: string; 
+  price: string;
   images: string[];
   category: {
     style: 'Lehenga' | 'Saree' | 'Gown' | 'Anarkali' | 'Sharara';
-    color: string; 
-    fabric: string; 
+    color: string;
+    fabric: string;
   };
   materials: string[];
   featured?: boolean;
   slug: string;
-  aiHint: string; 
+  aiHint: string;
 }
 
 export const dresses: Dress[] = [
@@ -132,13 +133,32 @@ export const dresses: Dress[] = [
     },
     materials: ['Georgette', 'Chikankari', 'Pearls', 'Net'],
     aiHint: 'ivory lehenga',
+  },
+  {
+    id: '7',
+    name: 'Regal Sapphire Gown',
+    slug: 'regal-sapphire-gown',
+    description: 'A stunning sapphire blue gown, perfect for a grand evening affair.',
+    longDescription: 'This regal sapphire blue gown is crafted from rich silk organza, featuring intricate silver embroidery and crystal embellishments. It has a flattering A-line silhouette and a sweeping train, making it an ideal choice for receptions or formal wedding events.',
+    price: '₹1,50,000',
+    images: [
+      'https://placehold.co/600x800.png',
+    ],
+    category: {
+      style: 'Gown',
+      color: 'Blue',
+      fabric: 'Silk Organza',
+    },
+    materials: ['Silk Organza', 'Silver Embroidery', 'Crystals'],
+    featured: true,
+    aiHint: 'blue gown',
   }
 ];
 
 export const dressCategories = {
   style: ['Lehenga', 'Saree', 'Gown', 'Anarkali', 'Sharara'],
-  color: ['Red', 'Pink', 'Green', 'Gold', 'Blue', 'White', 'Purple', 'Orange', 'Yellow'],
-  fabric: ['Velvet', 'Georgette', 'Silk', 'Banarasi Silk', 'Crepe', 'Net', 'Chiffon', 'Cotton'],
+  color: ['Red', 'Pink', 'Green', 'Gold', 'Blue', 'White', 'Purple', 'Orange', 'Yellow', 'Sapphire'],
+  fabric: ['Velvet', 'Georgette', 'Silk', 'Banarasi Silk', 'Crepe', 'Net', 'Chiffon', 'Cotton', 'Silk Organza'],
 };
 
 export const bodyTypes = ['Pear', 'Apple', 'Hourglass', 'Rectangle', 'Inverted Triangle'];

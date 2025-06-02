@@ -1,8 +1,9 @@
+
 import { DressCard } from '@/components/DressCard';
 import { dresses, type Dress } from '@/lib/data';
 
 export function FeaturedDresses() {
-  const featured = dresses.filter((dress) => dress.featured).slice(0, 3); // Show up to 3 featured dresses
+  const featured = dresses.filter((dress) => dress.featured).slice(0, 4); // Show up to 4 featured dresses
 
   if (featured.length === 0) {
     return null; // Don't render if no featured dresses
@@ -14,7 +15,7 @@ export function FeaturedDresses() {
         <h2 className="font-headline text-3xl sm:text-4xl font-bold text-primary text-center mb-10">
           Featured Collection
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {featured.map((dress) => (
             <DressCard key={dress.id} dress={dress} />
           ))}
