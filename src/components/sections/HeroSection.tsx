@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react';
 
 export function HeroSection() {
   return (
-    <section className="relative bg-gradient-to-br from-pink-200 via-purple-100 to-pink-300 dark:from-purple-900 dark:via-pink-900 dark:to-purple-800 py-16 md:py-24 lg:py-32 overflow-hidden">
+    <section className="relative bg-background dark:bg-background py-16 md:py-24 lg:py-32 overflow-hidden">
       <div className="absolute inset-0 opacity-20">
         {/* Subtle pattern idea - you can replace this with an actual SVG if desired */}
         {/* <Image src="/patterns/traditional-motif.svg" alt="Traditional Indian Motif" layout="fill" objectFit="cover" className="opacity-30" /> */}
