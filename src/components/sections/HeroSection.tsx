@@ -6,10 +6,6 @@ import { ArrowRight } from 'lucide-react';
 export function HeroSection() {
   return (
     <section className="relative bg-background dark:bg-background py-16 md:py-24 lg:py-32 overflow-hidden">
-      <div className="absolute inset-0 opacity-20">
-        {/* Subtle pattern idea - you can replace this with an actual SVG if desired */}
-        {/* <Image src="/patterns/traditional-motif.svg" alt="Traditional Indian Motif" layout="fill" objectFit="cover" className="opacity-30" /> */}
-      </div>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="text-center md:text-left animate-slide-in-up">
@@ -17,8 +13,7 @@ export function HeroSection() {
               Find Your Dream Wedding Dress
             </h1>
             <p className="text-lg sm:text-xl text-foreground mb-8">
-              Discover exquisite Indian bridal wear at Riha Boutique. <br/>
-              Elegance, tradition, and modern style, all in one place.
+              wedding
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground group shadow-lg transform hover:scale-105 transition-transform">
