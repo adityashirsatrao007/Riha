@@ -9,24 +9,24 @@ body {
 @layer base {
   :root {
     --background: 270 75% 96%; /* Pale Lavender */
-    --foreground: 262 40% 25%; /* Dark Purple for text */
-    --card: 340 70% 90%; /* Slightly off-pink for cards */
-    --card-foreground: 262 40% 25%;
-    --popover: 340 70% 90%;
-    --popover-foreground: 262 40% 25%;
-    --primary: 262 52% 47%; /* Deep Purple */
-    --primary-foreground: 0 0% 98%; /* White/Off-white */
-    --secondary: 262 50% 65%; /* Lighter Purple */
-    --secondary-foreground: 0 0% 98%;
-    --muted: 340 50% 92%; /* Muted Pink */
-    --muted-foreground: 262 30% 45%;
-    --accent: 337 81% 52%; /* Fuschia */
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 262 30% 75%; /* Purple-ish border */
-    --input: 262 30% 85%; /* Lighter purple-ish input background */
-    --ring: 337 81% 52%; /* Fuschia for ring */
+    --foreground: 260 25% 35%; /* Soft, muted dark lavender/grey for text */
+    --card: 330 100% 97%; /* Very Pale Pink */
+    --card-foreground: 260 25% 35%; /* Soft, muted dark lavender/grey for text */
+    --popover: 330 100% 97%; /* Very Pale Pink */
+    --popover-foreground: 260 25% 35%; /* Soft, muted dark lavender/grey for text */
+    --primary: 330 80% 75%; /* Soft Rosy Pink */
+    --primary-foreground: 0 0% 100%; /* White */
+    --secondary: 200 70% 80%; /* Pastel Sky Blue */
+    --secondary-foreground: 200 25% 25%; /* Darker blue-grey */
+    --muted: 270 50% 92%; /* Lighter Pale Lavender */
+    --muted-foreground: 260 20% 50%; /* Medium soft lavender/grey */
+    --accent: 30 100% 75%; /* Soft Peach/Apricot */
+    --accent-foreground: 0 0% 100%; /* White */
+    --destructive: 0 84.2% 60.2%; /* Standard Red */
+    --destructive-foreground: 0 0% 98%; /* White/Off-white */
+    --border: 270 40% 88%; /* Light Lavender Grey */
+    --input: 270 50% 94%; /* Very Light Lavender */
+    --ring: 330 80% 75%; /* Soft Rosy Pink */
     --chart-1: 12 76% 61%;
     --chart-2: 173 58% 39%;
     --chart-3: 197 37% 24%;
@@ -34,15 +34,15 @@ body {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
 
-    /* Sidebar specific colors - adjust if sidebar has distinct theme */
-    --sidebar-background: 262 52% 47%; /* Deep Purple */
-    --sidebar-foreground: 0 0% 98%; /* White/Off-white */
-    --sidebar-primary: 337 81% 52%; /* Fuschia */
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 262 50% 60%; /* Lighter Purple for accents in sidebar */
-    --sidebar-accent-foreground: 0 0% 98%;
-    --sidebar-border: 262 50% 40%;
-    --sidebar-ring: 337 81% 60%;
+    /* Sidebar specific colors - pastel theme */
+    --sidebar-background: 330 80% 75%; /* Soft Rosy Pink */
+    --sidebar-foreground: 0 0% 100%; /* White */
+    --sidebar-primary: 30 100% 75%; /* Soft Peach/Apricot */
+    --sidebar-primary-foreground: 0 0% 100%; /* White */
+    --sidebar-accent: 200 70% 80%; /* Pastel Sky Blue */
+    --sidebar-accent-foreground: 200 25% 25%; /* Darker blue-grey */
+    --sidebar-border: 330 80% 70%; /* Slightly darker rosy pink */
+    --sidebar-ring: 30 100% 75%; /* Soft Peach/Apricot */
   }
 
   .dark {
