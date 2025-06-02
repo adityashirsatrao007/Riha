@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react';
 
 export function HeroSection() {
   return (
-    <section className="relative bg-background dark:bg-background py-16 md:py-24 lg:py-32 overflow-hidden">
+    <section className="relative bg-background py-16 md:py-24 lg:py-32 overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="text-center md:text-left animate-slide-in-up">
@@ -22,11 +22,6 @@ export function HeroSection() {
               <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground group shadow-lg transform hover:scale-105 transition-transform">
                 <Link href="/dresses">
                   Explore Collection <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                </Link>
-              </Button>
-              <Button asChild variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/10 group shadow-lg transform hover:scale-105 transition-transform">
-                <Link href="/ai-recommender">
-                  AI Stylist <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </Button>
             </div>
