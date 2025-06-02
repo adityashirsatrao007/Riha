@@ -1,7 +1,7 @@
 "use client";
 
 import Link from 'next/link';
-import { Sparkles, Menu, X, ShoppingBag } from 'lucide-react';
+import { Sparkles, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { ThemeToggle } from './ThemeToggle';
 import { Button } from '@/components/ui/button';
@@ -17,7 +17,7 @@ import {
 const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/dresses', label: 'Dresses' },
-  { href: '/ai-recommender', label: 'AI Stylist' },
+  // { href: '/ai-recommender', label: 'AI Stylist' }, // Removed AI Stylist Link
   { href: '/contact', label: 'Contact Us' },
 ];
 

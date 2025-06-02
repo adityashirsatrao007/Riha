@@ -1,6 +1,6 @@
 import { HeroSection } from '@/components/sections/HeroSection';
 import { FeaturedDresses } from '@/components/sections/FeaturedDresses';
-import { AiRecommenderCta } from '@/components/sections/AiRecommenderCta';
+// import { AiRecommenderCta } from '@/components/sections/AiRecommenderCta'; // Removed AI CTA
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -105,7 +105,7 @@ export default function HomePage() {
       <HeroSection />
       <AboutUsSection />
       <FeaturedDresses />
-      <AiRecommenderCta />
+      {/* <AiRecommenderCta /> // Removed AI CTA */}
       <TestimonialsSection />
       <FaqSection />
     </>

@@ -20,7 +20,7 @@ export function Footer() {
             <h3 className="font-headline text-lg font-semibold mb-2">Quick Links</h3>
             <ul className="space-y-1">
               <li><Link href="/dresses" className="hover:text-accent transition-colors">Browse Collection</Link></li>
-              <li><Link href="/ai-recommender" className="hover:text-accent transition-colors">AI Stylist</Link></li>
+              {/* <li><Link href="/ai-recommender" className="hover:text-accent transition-colors">AI Stylist</Link></li> // Removed AI Stylist Link */}
               <li><Link href="/contact" className="hover:text-accent transition-colors">Contact Us</Link></li>
               <li><Link href="/#faq" className="hover:text-accent transition-colors">FAQ</Link></li>
             </ul>

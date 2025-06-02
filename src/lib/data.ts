@@ -161,5 +161,5 @@ export const dressCategories = {
   fabric: ['Velvet', 'Georgette', 'Silk', 'Banarasi Silk', 'Crepe', 'Net', 'Chiffon', 'Cotton', 'Silk Organza'],
 };
 
-export const bodyTypes = ['Pear', 'Apple', 'Hourglass', 'Rectangle', 'Inverted Triangle'];
-export const eventThemes = ['Traditional Wedding', 'Modern Reception', 'Sangeet Night', 'Mehendi Ceremony', 'Cocktail Party', 'Day Function'];
+// export const bodyTypes = ['Pear', 'Apple', 'Hourglass', 'Rectangle', 'Inverted Triangle']; // Removed for AI Stylist feature removal
+// export const eventThemes = ['Traditional Wedding', 'Modern Reception', 'Sangeet Night', 'Mehendi Ceremony', 'Cocktail Party', 'Day Function']; // Removed for AI Stylist feature removal
