@@ -34,12 +34,12 @@ export function HeroSection() {
           <div className="relative aspect-square md:aspect-[4/3] rounded-lg overflow-hidden shadow-2xl animate-fade-in">
             <Image
               src="https://placehold.co/800x1000.png"
-              alt="Beautiful Indian Bride"
+              alt="Indian Wedding Scene"
               fill
               priority
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
-              data-ai-hint="indian bride"
+              data-ai-hint="indian wedding"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
           </div>
