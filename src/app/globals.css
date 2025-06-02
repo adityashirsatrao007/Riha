@@ -8,7 +8,7 @@ body {
 
 @layer base {
   :root {
-    --background: 340 77% 86%; /* Light Pink */
+    --background: 270 75% 96%; /* Pale Lavender */
     --foreground: 262 40% 25%; /* Dark Purple for text */
     --card: 340 70% 90%; /* Slightly off-pink for cards */
     --card-foreground: 262 40% 25%;
